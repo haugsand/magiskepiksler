@@ -1,9 +1,7 @@
 import React from 'react';
 import {Router, Route, IndexRoute, browserHistory} from 'react-router'
 
-
 import Main from './Main';
-import SnippetGrid from './SnippetGrid';
 import SnippetDetail from './SnippetDetail';
 import About from './About';
 import Edit from './Edit';
@@ -13,8 +11,8 @@ class App extends React.Component {
     return (
         <Router history={browserHistory}>
             <Route component={Main}>
-                <Route path="/" component={SnippetGrid} />
-                <Route path="/snippet" component={SnippetGrid} />
+                <Route path="/" />
+                <Route path="/snippet" />
                 <Route path="/snippet/:snippetId" component={SnippetDetail} />
                 <Route path="/bakgrunn" component={About} />
                 <Route path="/endre" component={Edit} />
