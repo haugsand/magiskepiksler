@@ -2,19 +2,25 @@ import React from 'react';
 
 import Header from './Header';
 import DesignGrid from './DesignGrid';
+import Modal from './Modal';
 
-class Main extends React.Component {
-    render() {
+const Main = React.createClass({
+
+    render: function() {
+
         return (
         	<main>
                 <Header />
                 <DesignGrid />
 
-
-                {this.props.children}
+                <Modal>
+                	{this.props.children}
+                </Modal>
             </main>
         )
+
     }
-}
+
+});
 
 export default Main;

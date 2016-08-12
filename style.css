@@ -1,8 +1,139 @@
-body {
-  background: #f7f7f7;
-  color: rgba(0, 0, 0, 0.9);
+@import 'https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,700i';
+@import 'https://fonts.googleapis.com/css?family=Reem+Kufi';
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.active {
-  background: #ccc;
+html {
+  font-size: 62.5%;
+  height: 100%;
 }
+
+body {
+  background: #eee;
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+main {
+  background: #f7f7f7;
+  margin: 5rem auto;
+  width: 44rem;
+}
+
+@media (min-width: 860px) {
+  main {
+    width: 86rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  main {
+    width: 128rem;
+  }
+}
+
+@media (min-width: 1700px) {
+  main {
+    width: 170rem;
+  }
+}
+
+header {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+h1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin: 2rem 3rem;
+}
+
+nav {
+  margin: 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav a {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  margin: 0 0 0 1rem;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+}
+
+
+.design-grid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 2rem 0 0 2rem;
+}
+
+.design-grid__item {
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+  margin: 0 2rem 2rem 0;
+}
+
+.design-grid__link {
+  border: 1rem solid rgba(255, 255, 255, 1);
+  display: block;
+  height: 28rem;
+  width: 38rem;
+  position: relative;
+  text-decoration: none;
+}
+
+.design-grid__number {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 6rem;
+  height: 9.5rem;
+  left: 50%;
+  margin: -5rem 0 0 -5rem;
+  opacity: 1;
+  padding: 0.5rem 0 0 0;
+  position: absolute;
+  text-align: center; 
+  top: 50%;
+  transition: opacity 0.45s;
+  width: 10rem;
+}
+
+.design-grid__link:hover .design-grid__number {
+  opacity: 0.2;
+}
+
+.shadow {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  left: 0;
+  /*position: fixed;*/
+  top: 0;
+  width: 100%;
+}
+
+.modal {
+  background: rgba(255, 255, 255, 1);
+  width: 500px;
+  margin: 5rem auto;
+}
+

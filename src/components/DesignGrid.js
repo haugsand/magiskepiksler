@@ -27,12 +27,12 @@ const DesignGrid = React.createClass({
     render: function() {
         var designItems = this.props.data.map(function(design) {
             return (
-                <DesignItem title={design.title} id={design.id} key={design.id} />
+                <DesignItem title={design.title} id={design.id} img={design.img} key={design.id} />
             );
         });
 
         return (
-            <ul>
+            <ul className="design-grid">
                 {designItems}
             </ul>
         );
