@@ -1,8 +1,11 @@
 import React from 'react';
+import { connect } from 'react-redux'
 
-import SnippetItem from './SnippetItem';
+import DesignItem from './DesignItem';
 
-let SnippetGrid = React.createClass({
+const DesignGrid = React.createClass({
+
+/*
     getInitialState: function() {
         return {data: []};
     },
@@ -19,20 +22,31 @@ let SnippetGrid = React.createClass({
                 console.log('parsing failed', ex)
             })
     }, 
+*/
 
     render: function() {
-        var snippetItems = this.state.data.map(function(snippet) {
+        var designItems = this.props.data.map(function(design) {
             return (
-                <SnippetItem title={snippet.title} id={snippet.id} key={snippet.id} />
+                <DesignItem title={design.title} id={design.id} key={design.id} />
             );
         });
 
         return (
             <ul>
-                {snippetItems}
+                {designItems}
             </ul>
         );
     }
 });
 
-export default SnippetGrid;
+function mapStateToProps(store) {
+  return {
+    data: store
+  }
+}
+
+export default connect(
+  mapStateToProps
+)(DesignGrid)
+
+//export default DesignGrid;

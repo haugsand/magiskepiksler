@@ -1,14 +1,14 @@
 import React from 'react';
 
 import Header from './Header';
-import SnippetGrid from './SnippetGrid';
+import DesignGrid from './DesignGrid';
 
 class Main extends React.Component {
     render() {
         return (
         	<main>
                 <Header />
-                <SnippetGrid />
+                <DesignGrid />
 
 
                 {this.props.children}

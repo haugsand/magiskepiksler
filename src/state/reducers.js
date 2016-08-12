@@ -1,20 +1,15 @@
-import { combineReducers } from 'redux'
-import { ADD_TODO, DELETE_TODO, EDIT_TODO } from './actiontypes'
+import { ADD_TODO, DELETE_TODO, EDIT_TODO, DESIGN_LIST_SUCCESS, ADD_DESIGN } from './actiontypes'
 
 const initialState = [
-  {
-    text: 'Use Redux',
-    completed: false,
-    id: 0
-  },
-  {
-    text: 'Use Redux 2',
-    completed: true,
-    id: 1
-  }
+    {"id": 1, "title": "Snippet 1"},
+    {"id": 2, "title": "Snippet 2"},
+    {"id": 3, "title": "Snippet 3"},
+    {"id": 4, "title": "Snippet 4"},
+    {"id": 5, "title": "Snippet 5"},
+    {"id": 6, "title": "Snaps"}
 ]
 
-function todos(state = initialState, action) {
+const reducer = function(state = initialState, action) {
   switch (action.type) {
     case ADD_TODO:
       return [
@@ -38,16 +33,22 @@ function todos(state = initialState, action) {
           todo
       )
 
+    case DESIGN_LIST_SUCCESS:
+      return state
+
+    case ADD_DESIGN:
+      return [
+        ...state,
+        action.design
+      ]
+
     default:
       return state
   }
 }
 
-const rootReducer = combineReducers({
-  todos
-})
 
-export default rootReducer
+export default reducer
 
 
 
