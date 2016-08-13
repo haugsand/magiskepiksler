@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from './Header';
 import DesignGrid from './DesignGrid';
-import Modal from './Modal';
+
 
 const Main = React.createClass({
 
@@ -13,9 +13,7 @@ const Main = React.createClass({
                 <Header />
                 <DesignGrid />
 
-                <Modal>
-                	{this.props.children}
-                </Modal>
+                {this.props.children}
             </main>
         )
 
