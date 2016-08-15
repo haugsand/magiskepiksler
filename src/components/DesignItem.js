@@ -4,10 +4,10 @@ import {Link} from 'react-router'
 class DesignItem extends React.Component {
     render() {
         return (
-            <li className="design-grid__item" style={{backgroundImage: 'url(' + this.props.img + ')'}}>
-            	<Link to={`/design/${this.props.id}`} activeClassName="active" className="design-grid__link">
+            <li className="design-grid__item" style={{backgroundImage: 'url(' + this.props.design.img + ')'}}>
+            	<Link to={`/design/${this.props.design.id}`} activeClassName="active" className="design-grid__link">
             		<span className="design-grid__number">
-            			{this.props.id}
+            			{this.props.design.id}
             		</span>
         		</Link>
         	</li>
