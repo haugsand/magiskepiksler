@@ -12,14 +12,14 @@ html {
 }
 
 body {
-  background: #eee;
+  background: #e9f6ff;
   font-family: "Lato", sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
 }
 
 main {
-  background: #f7f7f7;
+  background: #fff;
   margin: 5rem auto;
   width: 44rem;
 }
@@ -44,8 +44,7 @@ main {
 
 header {
   align-items: center;
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  background: #6ca1b4;
   display: flex;
   justify-content: space-between;
 }
@@ -87,15 +86,13 @@ nav a {
 }
 
 .design-grid__item {
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
   margin: 0 2rem 2rem 0;
 }
 
 .design-grid__link {
-  border: 1rem solid rgba(255, 255, 255, 1);
   display: block;
-  height: 28rem;
-  width: 38rem;
+  height: 30rem;
+  width: 40rem;
   position: relative;
   text-decoration: none;
 }
