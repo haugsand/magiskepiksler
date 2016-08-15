@@ -123,14 +123,17 @@ nav a {
   background: rgba(0, 0, 0, 0.5);
   height: 100%;
   left: 0;
-  /*position: fixed;*/
+  position: fixed;
   top: 0;
   width: 100%;
 }
 
 .modal {
   background: rgba(255, 255, 255, 1);
-  width: 500px;
-  margin: 5rem auto;
+  left: 50%;
+  position: fixed;
+  top: 5rem;
+  width: 50rem;
+  margin-left: -25rem;
 }
 

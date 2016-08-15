@@ -1,15 +1,26 @@
 import React from 'react';
+import {browserHistory} from 'react-router'
 
-class Modal extends React.Component {
-    render() {
+const Modal = React.createClass({
+
+    closeModal: function() {
+        browserHistory.push('/');
+    },
+
+    render: function() {
         return (
-            <div className="shadow">
+            <div>
+                <div className="shadow" onClick={this.closeModal}></div>
                 <div className="modal">
                     {this.props.children}
                 </div>
             </div>
-        )
+        );
     }
-}
+
+});
+
+
+
 
 export default Modal;

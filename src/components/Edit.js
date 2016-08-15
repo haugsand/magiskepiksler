@@ -1,6 +1,7 @@
 import React from 'react';
 
 import store from '../state/store';
+import Modal from './Modal';
 
 
 const Edit = React.createClass({
@@ -37,7 +38,7 @@ const Edit = React.createClass({
     render: function() {
 
         return (
-            <section>
+            <Modal>
                 <h2>Legg til nytt design</h2>
 
                 <form onSubmit={this.handleSubmit}>
@@ -49,7 +50,7 @@ const Edit = React.createClass({
                     </label>
                     <input type="submit" value="Legg til design" />
                 </form>
-            </section>
+            </Modal>
         );
     }
 });
