@@ -9,7 +9,7 @@ const Main = React.createClass({
     render: function() {
 
         return (
-        	<main>
+            <main>
                 <Header />
                 <DesignGrid />
 
