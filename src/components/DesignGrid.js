@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from 'react-redux'
+import {connect} from 'react-redux'
 
 import DesignItem from './DesignItem';
 
@@ -48,5 +48,3 @@ function mapStateToProps(store) {
 export default connect(
   mapStateToProps
 )(DesignGrid)
-
-//export default DesignGrid;
