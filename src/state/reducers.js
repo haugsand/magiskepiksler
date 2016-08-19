@@ -12,7 +12,10 @@ const initialState = [
             "For å gjøre terskelen ekstra lav, bør brukere ha mulighet til å logge inn ved hjelp av sin Facebook- eller Google-konto."
         ],
         "post": [
-            "Post"
+            "Google- og Facebook-knappene er ikke tilpasset teksten, og er for brede.",
+            "Google- og Facebook-knappene blir for dominerende.",
+            "Epostadresse-input blir for usynlig og lite fremhevet, om dette er det viktigste elementet.",
+            "Det benyttes bare grønnfarger, om det ses vekk fra Google-rød og Facebook-blå."
         ],
         "img": "/img/1-800x600.png",
         "thumb": "/img/1-400x300.png"
@@ -22,7 +25,10 @@ const initialState = [
         "title": "Daily UI #002: Credit Card Checkout", 
         "date": "2016-01-01",
         "pre": [
-            "Pre"
+            "Brukeren skal taste inn kortnummer, gyldighetsdato og sikkerhetskode.",
+            "Brukeren må vite hvilke typer kort som støttes, men det skal ikke være nødvendig å velge korttype. Dette tolkes automatisk.",
+            "Skill tallgruppene i kortnummeret fra hverandre visuelt.",
+            "Vis brukeren hva sikkerhetskode er."
         ],
         "post": [
             "Post"
