@@ -7,9 +7,7 @@ class Nav extends React.Component {
         return (
             <nav>
                 <ul>
-                    <li><Link to="/" activeClassName="active">Hjem</Link></li>
-                    <li><Link to="/bakgrunn" activeClassName="active">Bakgrunn</Link></li>
-                    <li><Link to="/endre" activeClassName="active">Endre</Link></li>
+                    <li><Link to="/om" activeClassName="active">Hva er Magiske piksler?</Link></li>
                 </ul>
             </nav>
         )

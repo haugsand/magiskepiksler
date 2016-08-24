@@ -4,7 +4,7 @@ const initialState = [
     {
         "id": 1, 
         "title": "Daily UI #001: Sign Up",
-        "date": "2016-01-01",
+        "date": "2016-08-18",
         "pre": [
             "Oppgaven består i å lage et skjema for å opprette en ny bruker på et nettsted.",
             "Skjemaet bør være kort, og kun inneholde felter som er absolutt nødvendige. Velger å kun inkludere e-postadresse.",
@@ -23,70 +23,73 @@ const initialState = [
     {
         "id": 2, 
         "title": "Daily UI #002: Credit Card Checkout", 
-        "date": "2016-01-01",
+        "date": "2016-08-22",
         "pre": [
             "Brukeren skal taste inn kortnummer, gyldighetsdato og sikkerhetskode.",
             "Brukeren må vite hvilke typer kort som støttes, men det skal ikke være nødvendig å velge korttype. Dette tolkes automatisk.",
             "Skill tallgruppene i kortnummeret fra hverandre visuelt.",
-            "Vis brukeren hva sikkerhetskode er."
+            "Vis brukeren hva sikkerhetskode er.",
+            "Handlekurv og totalsum bør vises."
         ],
         "post": [
             "Post"
         ],
-        "img": "https://d13yacurqjgara.cloudfront.net/users/995236/screenshots/2895043/bizhi00_1x.png",
-        "thumb": "https://d13yacurqjgara.cloudfront.net/users/995236/screenshots/2895043/bizhi00_1x.png"
+        "img": "/img/2-800x600.png",
+        "thumb": "/img/2-400x300.png"
     },
     {
         "id": 3, 
         "title": "Daily UI #003: Landing Page", 
         "date": "2016-01-01",
         "pre": [
-            "Pre"
+            "Oppgaven går ut på å designe en landingsside som brukeren ankommer etter å ha registrert seg.",
+            "Brukeren bør få informasjon om hva som har blitt gjort, og hva som er neste steg."
+
         ],
         "post": [
-            "Post"
+            "..."
         ],
-        "img": "https://d13yacurqjgara.cloudfront.net/users/725862/screenshots/2895035/day024-acount_profile_1x.png",
-        "thumb": "https://d13yacurqjgara.cloudfront.net/users/725862/screenshots/2895035/day024-acount_profile_1x.png"
+        "img": "/img/3-800x600.png",
+        "thumb": "/img/3-400x300.png"
     },
     {
         "id": 4, 
         "title": "Daily UI #004: Calculator", 
         "date": "2016-01-01",
         "pre": [
-            "Pre"
+            "..."
         ],
         "post": [
-            "Post"
+            "..."
         ],
-        "img": "https://d13yacurqjgara.cloudfront.net/users/452635/screenshots/2894615/money_convertor_1x.png",
-        "thumb": "https://d13yacurqjgara.cloudfront.net/users/452635/screenshots/2894615/money_convertor_1x.png"
+        "img": "/img/4-800x600.png",
+        "thumb": "/img/4-400x300.png"
     },
     {
         "id": 5, 
         "title": "Daily UI #005: App Icon", 
         "date": "2016-01-01",
         "pre": [
-            "Pre"
+            "..."
         ],
         "post": [
-            "Post"
+            "..."
         ],
-        "img": "https://d13yacurqjgara.cloudfront.net/users/43342/screenshots/2895307/studiojq2016_nike_football_premierleague_ui2_1x.jpg",
-        "thumb": "https://d13yacurqjgara.cloudfront.net/users/43342/screenshots/2895307/studiojq2016_nike_football_premierleague_ui2_1x.jpg"
+        "img": "/img/5-800x600.png",
+        "thumb": "/img/5-400x300.png"
     },
     {
         "id": 6, 
         "title": "Daily UI #006: User Profile", 
         "date": "2016-01-01",
         "pre": [
-            "Pre"
+            "..."
         ],
         "post": [
-            "Post"
+            "..."
         ],
-        "img": "https://d13yacurqjgara.cloudfront.net/users/436276/screenshots/2894829/_11_ui_of_the_day_1x.png",
-        "thumb": "https://d13yacurqjgara.cloudfront.net/users/436276/screenshots/2894829/_11_ui_of_the_day_1x.png"
+        "img": "/img/6-800x600.png",
+        "thumb": "/img/6-400x300.png"
     }
 ]
 

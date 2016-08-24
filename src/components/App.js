@@ -16,7 +16,7 @@ class App extends React.Component {
                 <Route path="/" />
                 <Route path="/design" />
                 <Route path="/design/:designId" component={DesignDetail} />
-                <Route path="/bakgrunn" component={About} />
+                <Route path="/om" component={About} />
                 <Route path="/endre" component={Edit} />
             </Route>
         </Router>
