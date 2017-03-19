@@ -6,7 +6,7 @@
 React Hot Boilerplate
 =====================
 
-The minimal dev environment to enable live-editing React components.
+The minimal dev environment to enable live-editing React components. 
 
 ### Usage
 
